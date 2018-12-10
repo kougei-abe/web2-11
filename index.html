@@ -32,7 +32,7 @@
     
     var loader = new THREE.TextureLoader();
     var geometry = new THREE.SphereGeometry( 1, 32, 16 );
-    var marerial = new THREE.MeshStandardMaterial({
+    var marerial = new THREE.MeshStandardMaterial ({
         color: 0xccffcc,
         map: loader.load('elly.jpg')});
     var mesh = new THREE.Mesh( geometry, material );
